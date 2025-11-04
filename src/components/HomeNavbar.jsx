@@ -25,6 +25,24 @@ const HomeNavbar = () => {
     }
   }, [menuOpen]);
 
+  // Fix scrollspy lag specifically for the About section
+  useEffect(() => {
+    const handleScroll = () => {
+      const aboutSection = document.getElementById("about");
+      if (!aboutSection) return;
+
+      const rect = aboutSection.getBoundingClientRect();
+
+      // If About is within ~2px of top but hasn't activated yet, force refresh
+      if (rect.top >= -2 && rect.top <= 2) {
+        window.dispatchEvent(new Event("scroll"));
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       {/* Desktop Navbar */}
@@ -92,7 +110,7 @@ const HomeNavbar = () => {
                 <ScrollLink
                   to={item.toLowerCase()}
                   smooth={true}
-                  offset={-70}
+                  offset={-5}
                   duration={500}
                   className="text-gray-400 cursor-pointer text-xl transition-all"
                   onClick={() => setMenuOpen(false)}
