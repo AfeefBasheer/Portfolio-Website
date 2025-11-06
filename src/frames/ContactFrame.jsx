@@ -122,7 +122,7 @@ const ContactFrame = () => {
         transition={{ duration: 0.6 }}
         className="mb-16 text-center"
       >
-        <Heading>Get In Touch</Heading>
+        <Heading>Lets Talk Tech</Heading>
       </motion.div>
 
       {/* Form Card */}

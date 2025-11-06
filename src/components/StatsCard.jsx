@@ -12,42 +12,64 @@ const StatsCard = () => {
       {/* Added gap-6 to the flex container for equal spacing */}
       <div className="flex flex-col gap-6">
         {/* Group 1: LeetCard */}
-        {/* Removed mb-6 from this div */}
-        <div>
-          <img
-            src="https://leetcard.jacoblin.cool/AfeefBasheer?theme=dark&font=Baloo%202&ext=contest"
-            alt="LeetCode Stats"
-            className="rounded-lg w-full"
-          />
-          <p className="text-md font-semibold text-gray-300 text-center mt-2">
-            LeetCode
-          </p>
-        </div>
+        {/* Added <a> tag to make this section clickable */}
+        <a
+          href="https://leetcode.com/AfeefBasheer/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View LeetCode Profile"
+        >
+          <div>
+            <img
+              src="https://leetcard.jacoblin.cool/AfeefBasheer?theme=dark&font=Baloo%202&ext=contest"
+              alt="LeetCode Stats"
+              className="rounded-lg w-full"
+            />
+            <p className="text-md font-semibold text-gray-300 text-center mt-2">
+              LeetCode
+            </p>
+          </div>
+        </a>
 
         {/* Group 2: GitHub Stats */}
-        {/* Removed mb-2 from this div */}
-        <div>
-          <img
-            src="https://github-readme-stats.vercel.app/api?username=AfeefBasheer&show_icons=true&theme=radical"
-            alt="GitHub Stats"
-            className="rounded-lg w-full"
-          />
-          <p className="text-md font-semibold text-gray-300 text-center mt-2">
-            GitHub Stats
-          </p>
-        </div>
+        {/* Added <a> tag to make this section clickable */}
+        <a
+          href="https://github.com/AfeefBasheer"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View GitHub Profile"
+        >
+          <div>
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=AfeefBasheer&show_icons=true&theme=radical"
+              alt="GitHub Stats"
+              className="rounded-lg w-full"
+            />
+            <p className="text-md font-semibold text-gray-300 text-center mt-2">
+              GitHub Stats
+            </p>
+          </div>
+        </a>
 
         {/* Group 3: GitHub Streak */}
-        <div>
-          <img
-            src="https://github-readme-streak-stats.herokuapp.com/?user=AfeefBasheer&theme=radical"
-            alt="GitHub Streak"
-            className="rounded-lg w-full"
-          />
-          <p className="text-md font-semibold text-gray-300 text-center mt-2">
-            GitHub Streak
-          </p>
-        </div>
+        {/* Added <a> tag to make this section clickable */}
+        <a
+          href="https://github.com/AfeefBasheer"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="View GitHub Profile"
+        >
+          <div>
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com/?user=AfeefBasheer&theme=radical"
+              alt="GitHub Streak"
+              className="rounded-lg w-full"
+            />
+            <p className="text-md font-semibold text-gray-300 text-center mt-2">
+              GitHub Streak
+            </p>
+          </div>
+        </a>
       </div>
 
       {/* Subtle Glow Line */}
