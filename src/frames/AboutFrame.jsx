@@ -92,11 +92,13 @@ const AboutSection = () => {
                 <div className="grid grid-cols-2 gap-6 text-sm text-gray-400 mt-2">
                   <div className="flex flex-col items-center">
                     <span className="text-teal-400 font-semibold">Stack</span>
-                    <span className="opacity-70">Web Dev, Cloud, AI</span>
+                    <span className="opacity-70">AI, Web Dev, Cloud</span>
                   </div>
                   <div className="flex flex-col items-center">
                     <span className="text-teal-400 font-semibold">Focus</span>
-                    <span className="opacity-70">AI Systems, Design</span>
+                    <span className="opacity-70">
+                      AI Systems, System Design
+                    </span>
                   </div>
                   <div className="flex flex-col items-center">
                     <span className="text-teal-400 font-semibold">Mindset</span>
