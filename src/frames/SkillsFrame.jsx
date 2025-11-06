@@ -67,7 +67,9 @@ const SkillsFrame = () => {
   return (
     <section
       id="skills"
-      className="relative min-h-screen flex flex-col justify-center items-center px-8 md:px-24 bg-[#0d0d0d] text-gray-200 overflow-hidden"
+      // --- THIS IS THE FIX ---
+      // Changed to 120vh
+      className="relative min-h-[120vh] flex flex-col justify-center items-center px-8 md:px-24 bg-[#0d0d0d] text-gray-200 overflow-hidden"
     >
       {/* Background Layers */}{" "}
       <div className="absolute inset-0 -z-20 bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#0e0e0e]" />{" "}

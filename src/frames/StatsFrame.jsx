@@ -8,7 +8,7 @@ const StatsFrame = () => {
   return (
     <section
       id="stats"
-      className="relative min-h-screen py-24 px-6 md:px-16 bg-[#0d0d0d] text-gray-200 overflow-hidden"
+      className="relative min-h-[120vh] py-24 px-6 md:px-16 bg-[#0d0d0d] text-gray-200 overflow-hidden"
     >
       {/* Background Layers */}
       <div className="absolute inset-0 -z-20 bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#0e0e0e]" />

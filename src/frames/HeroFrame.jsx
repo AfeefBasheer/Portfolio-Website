@@ -57,7 +57,7 @@ const HeroFrame = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden px-6 md:px-16 pt-12 md:pt-20 bg-[#0d0d0d] text-gray-200"
+      className="relative min-h-[100vh] flex flex-col items-center justify-center overflow-hidden px-6 md:px-16 pt-12 md:pt-20 bg-[#0d0d0d] text-gray-200"
     >
       {/* AB Pill */}
       <motion.div
@@ -124,7 +124,7 @@ const HeroFrame = () => {
           className="w-full md:w-1/3 flex flex-col items-center justify-center z-10 space-y-4"
           initial={{ opacity: 0, x: 60 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.6, delay: 0.3, ease: 'easeOut' }}
+          transition={{ duration: 0.6, delay: 0.3, ease: "easeOut" }}
         >
           <Profile />
           <motion.div
