@@ -8,20 +8,19 @@ const MacTerminal = () => {
       initial={{ opacity: 0, scale: 0.9 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.6 }}
-      className="rounded-2xl bg-surface/60 border border-white/10 
-             shadow-md px-8 py-6 text-center backdrop-blur-lg"
+      className="rounded-2xl bg-surface/40 border border-teal-900 shadow-md px-8 py-6 text-center backdrop-blur-lg"
     >
       <TypeAnimation
-sequence={[
-  "I build scalable systems.",
-  2000,
-  "I design with logic and intent.",
-  2000,
-  "I craft intelligent products.",
-  2000,
-  "I solve problems that matter.",
-  2000,
-]}
+        sequence={[
+          "I build scalable systems.",
+          2000,
+          "I design with logic and intent.",
+          2000,
+          "I craft intelligent products.",
+          2000,
+          "I solve problems that matter.",
+          2000,
+        ]}
         wrapper="h2"
         cursor={true}
         repeat={Infinity}

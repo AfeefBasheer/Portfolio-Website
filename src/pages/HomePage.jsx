@@ -4,7 +4,7 @@ import HeroFrame from "../frames/HeroFrame.jsx";
 import AboutFrame from "../frames/AboutFrame.jsx";
 import SkillsFrame from "../frames/SkillsFrame.jsx";
 import ProjectsFrame from "../frames/ProjectsFrame.jsx";
-import StatsResumeFrame from "../frames/StatsResumeFrame.jsx";
+import StatsResumeFrame from "../frames/StatsFrame.jsx";
 import EducationFrame from "../frames/EducationFrame.jsx";
 import ContactFrame from "../frames/ContactFrame.jsx";
 import Footer from "../components/Footer.jsx";

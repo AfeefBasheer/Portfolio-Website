@@ -62,6 +62,10 @@ const ProjectCard = ({ project }) => {
             </motion.div>
           </div>
         </div>
+
+        {/* --- ADD THIS LINE --- */}
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 group-hover:w-2/3 h-[2px] bg-[#5eead4] transition-all duration-500" />
+        {/* --------------------- */}
       </motion.div>
     </Link>
   );
