@@ -6,7 +6,7 @@ const ProjectsFrame = () => {
   return (
     <section
       id="projects"
-      className="relative min-h-screen py-20 px-8 md:px-24 bg-[#0d0d0d] text-gray-200"
+      className="relative min-h-[180vh] py-20 px-8 md:px-24 bg-[#0d0d0d] text-gray-200"
     >
       <h1 className="text-4xl md:text-5xl font-bold text-gray-100 mb-4 text-center">
         Projects

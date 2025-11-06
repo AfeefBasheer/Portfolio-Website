@@ -17,7 +17,7 @@ export const projects = [
     description:
       "Developed an AI-powered web application to automate multi-year fundamental analysis of listed companies, including Piotroski F-Score and key financial ratios, potentially reducing manual analysis time by 60%. Provides faster, data-driven investment decisions with structured, consistent AI-powered analysis across large datasets. Implemented a scoring engine with dynamic visual indicators and actionable insights while building modular, secure RESTful APIs with full CRUD functionality, user authentication, data validation, and error-handling, with manual, unit, integration, and end-to-end testing for financial data and reporting pipelines.",
     demoUrl: "#",
-    imageUrl: "/public/projects/fundamental.png",
+    imageUrl: "/projects/fundamental.png",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ export const projects = [
     description:
       "Built an AI-driven platform enabling context-aware question answering from uploaded documents using a Retrieval-Augmented Generation (RAG) system. Handles multiple document types with high accuracy. Implemented document chunking, embeddings generation, and retrieval pipelines for real-time responses, with chat history tracking and pronoun resolution. Designed modular backend APIs for ingestion, storage, and retrieval of documents with an interactive chat interface for seamless user interaction, leveraging advanced AI frameworks for improved semantic search, answer accuracy, and enterprise-grade scalability.",
     demoUrl: "#",
-    imageUrl: "/public/projects/rag.png",
+    imageUrl: "/projects/rag.png",
   },
   {
     id: 3,
@@ -57,7 +57,7 @@ export const projects = [
     description:
       "Developed a multi-module mobile application digitizing town-level public services for over 300 residents, enhancing civic engagement, operational efficiency, and public service management. Delivered modules for hospital appointments, palliative care, payments, blood bank, and transport scheduling, featuring GPS-enabled driver app with real-time tracking and cloud synchronization. Integrated Razorpay payments, real-time notifications, and secure backend services, ensuring high availability, data integrity, and system scalability. Improved user adoption and workflow efficiency through responsive UI/UX design and modular architecture.",
     demoUrl: "#",
-    imageUrl: "/public/projects/digitown.png",
+    imageUrl: "/projects/digitown.png",
   },
   {
     id: 4,
@@ -76,6 +76,6 @@ export const projects = [
     description:
       "Built a fully functional e-commerce website featuring product listings, shopping cart, and checkout flow. Implemented basic authentication, dynamic product pages, and responsive UI using Boostrap. Backend built with Node.js, Express, and MongoDB, with secure CRUD operations for products and user data. This project showcases full-stack integration and modern web development practices.",
     demoUrl: "#",
-    imageUrl: "/public/projects/ecommerce.png",
+    imageUrl: "/projects/ecommerce.png",
   },
 ];

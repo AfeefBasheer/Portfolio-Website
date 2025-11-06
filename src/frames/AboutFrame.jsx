@@ -8,7 +8,7 @@ const AboutSection = () => {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex flex-col lg:flex-row items-center justify-center 
+      className="relative min-h-[70vh] flex flex-col lg:flex-row items-center justify-center 
                  px-8 md:px-20 py-24 bg-[#0d0d0d] text-gray-200 overflow-hidden"
     >
       {/* Background layers */}

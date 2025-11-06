@@ -1,7 +1,6 @@
 import React from "react";
-// import { FiExternalLink } from "react-icons/fi"; // Removed
-import { ArrowUpRight } from "lucide-react"; // <-- Added this import
-import { motion } from "framer-motion"; // <-- Added this import for the motion.div
+import { ArrowUpRight } from "lucide-react"; 
+import { motion } from "framer-motion"; 
 
 const CertificationCard = ({ certification }) => {
   const { title, issuer, date, image, link } = certification;
@@ -14,13 +13,12 @@ const CertificationCard = ({ certification }) => {
       className="cursor-pointer relative group block h-full bg-[#1a1a1a]/60 border border-white/10 rounded-2xl backdrop-blur-md transition-all duration-500 hover:border-[#5eead4]/40 hover:shadow-[0_0_25px_-8px_rgba(94,234,212,0.3)] 
       overflow-hidden"
     >
-      {/* Image is now the first child, full-width, and has a fixed height.
-        Adjust 'h-48' as needed.
+      {/* Image tag updated below
       */}
       <img
         src={image} // This should now be a screenshot of your certificate
         alt={`${title} preview`}
-        className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+        className="w-full h-48 object-cover transition-all duration-300 group-hover:scale-105 group-hover:opacity-80" // <-- Added opacity change
       />
 
       {/* Replaced FiExternalLink with ArrowUpRight and added motion for hover effect */}
@@ -46,7 +44,7 @@ const CertificationCard = ({ certification }) => {
 
       {/* Subtle Glow Line */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 group-hover:w-2/3 h-[2px] bg-[#5eead4] transition-all duration-500" />
-       </a>
+        </a>
   );
 };
 

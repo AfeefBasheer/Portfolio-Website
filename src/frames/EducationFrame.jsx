@@ -7,7 +7,7 @@ const EducationFrame = () => {
   return (
     <section
       id="education"
-      className="relative min-h-screen flex flex-col justify-center items-center py-24 px-8 md:px-24 bg-[#0d0d0d] text-gray-200 overflow-hidden"
+      className="relative min-h-[140vh] flex flex-col justify-center items-center py-24 px-8 md:px-24 bg-[#0d0d0d] text-gray-200 overflow-hidden"
     >
       {/* Background Layers */}
       <div className="absolute inset-0 -z-20 bg-gradient-to-br from-[#0f0f0f] via-[#1a1a1a] to-[#0e0e0e]" />
@@ -29,7 +29,6 @@ const EducationFrame = () => {
 
       {/* Timeline Container */}
       <div className="relative w-full max-w-4xl mx-auto">
-        
         {/* The Animated Timeline Line */}
         <motion.div
           className="absolute left-1/2 top-0 h-full w-[2px] bg-[#5eead4]/20 -translate-x-1/2"
@@ -72,10 +71,10 @@ const EducationFrame = () => {
                   <p className="text-gray-300 mb-2">{edu.school}</p>
                   <p className="text-sm text-gray-500 mb-2">{edu.years}</p>
                   <p className="text-sm text-gray-400">{edu.cgpa}</p>
-                  
+
                   {/* Subtle Glow Line */}
                   <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 group-hover:w-2/3 h-[2px] bg-[#5eead4] transition-all duration-500" />
-                </a> 
+                </a>
               </div>
 
               {/* 2. Center Dot */}
@@ -92,7 +91,6 @@ const EducationFrame = () => {
 
               {/* 3. Empty Side (for spacing) */}
               <div className="w-5/12" />
-
             </motion.div>
           ))}
         </div>
