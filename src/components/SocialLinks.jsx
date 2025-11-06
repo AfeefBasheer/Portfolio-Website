@@ -10,7 +10,7 @@ const SocialLinks = () => {
       icon: Linkedin,
       href: "https://www.linkedin.com/in/afeef-basheer-a74a06226",
     },
-    { icon: Github, href: "https://github.com/AfeefBasheer" },
+    { icon: Github, href: "https://github.com/AefefBasheer" },
     { icon: Twitter, href: "https://www.x.com/in/AfeefMB" },
     { icon: Instagram, href: "https://www.instagram.com/AfeefMB" },
     {
@@ -29,6 +29,7 @@ const SocialLinks = () => {
   };
 
   return (
+    // --- Removed 'group' class here ---
     <div className="relative">
       <motion.div
         initial={{ y: 30, opacity: 0 }}
@@ -47,16 +48,21 @@ const SocialLinks = () => {
             variants={iconVariants}
             whileHover="hover"
             whileTap="tap"
+            // The 'group' class here now controls the glow line for each icon
             className="group relative flex items-center justify-center 
                        w-12 h-12 md:w-14 md:h-14 rounded-xl border border-white/20 
                        bg-surface/40 backdrop-blur-sm text-secondary 
                        shadow-md transition-all duration-300 
-                       hover:border-primary/50 hover:bg-surface/70 cursor-pointer"
+                       hover:border-[#5eead4]/40 hover:bg-surface/70 cursor-pointer
+                       hover:shadow-[0_0_25px_-8px_rgba(94,234,212,0.3)]"
           >
             <link.icon
               size={24}
-              className="transition-colors duration-300 group-hover:text-primary"
+              className="transition-colors duration-300 group-hover:text-[#5eead4]"
             />
+            
+            {/* --- Glow Line Added PER ICON --- */}
+            <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-0 group-hover:w-2/3 h-[2px] bg-[#5eead4] transition-all duration-500" />
           </motion.a>
         ))}
       </motion.div>
@@ -77,6 +83,8 @@ const SocialLinks = () => {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* --- Main Glow Line Removed From Here --- */}
     </div>
   );
 };
