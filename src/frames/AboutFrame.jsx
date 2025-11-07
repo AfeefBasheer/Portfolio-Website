@@ -92,7 +92,7 @@ const AboutSection = () => {
                 <div className="grid grid-cols-2 gap-6 text-sm text-gray-400 mt-2">
                   <div className="flex flex-col items-center">
                     <span className="text-teal-400 font-semibold">Stack</span>
-                    <span className="opacity-70">AI, Web Dev, Cloud</span>
+                    <span className="opacity-70">AI, Backend, Cloud</span>
                   </div>
                   <div className="flex flex-col items-center">
                     <span className="text-teal-400 font-semibold">Focus</span>
@@ -106,7 +106,7 @@ const AboutSection = () => {
                   </div>
                   <div className="flex flex-col items-center">
                     <span className="text-teal-400 font-semibold">Goal</span>
-                    <span className="opacity-70">Build What Scales</span>
+                    <span className="opacity-70">Build Intelligence that Scales</span>
                   </div>
                 </div>
               </div>

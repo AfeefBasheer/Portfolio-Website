@@ -25,7 +25,7 @@ export const projects = [
     demoUrl: "#", // Add your demo link
     imageUrl: "/projects/fundamental.png",
     currentStatus:
-      "In Development: The core backend APIs and AI scoring engine are complete. Currently building the React frontend and data visualization components.",
+      "In Development: The core backend APIs and scoring engine are complete. Currently working on AI and Backend Testing.",
     architectureImageUrl: "/projects/fundamentalarch.png", // Add your architecture image
   },
   {
@@ -55,7 +55,7 @@ export const projects = [
     demoUrl: "#", // Add your demo link
     imageUrl: "/projects/rag.png",
     currentStatus:
-      "Functional Prototype: The document ingestion, embedding, and retrieval pipelines are fully functional. I am currently working on scaling the solution and improving the chat history management.",
+      "Functional Prototype: The document ingestion, embedding, and retrieval pipelines are fully functional. I am currently working on scaling the solution and improving the chat history management, pronoun resolution and context management..",
     architectureImageUrl: "/projects/ragarch.png", // Add your architecture image
   },
   {
